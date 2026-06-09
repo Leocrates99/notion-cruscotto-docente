@@ -1,0 +1,12 @@
+# Segreti e dipendenze — mai versionati
+.env
+node_modules/
+
+# Manifest di idempotenza: descrive una specifica istanza Notion, non il codice (vedi README §Idempotenza)
+notion-state.json
+
+# Output e rumore
+dist/
+*.log
+.DS_Store
+Thumbs.db
